@@ -1,0 +1,10 @@
+testrail_url: "https://contentserv.testrail.io/index.php?/dashboard"
+
+suites:
+
+  - suite:
+      project_id: 9
+      project_symbol: 'MxM'
+      suite_id: 2573
+      section_id: 2574
+      testplan_id: 125

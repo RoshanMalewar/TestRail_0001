@@ -6,8 +6,7 @@ test:
 
   pre:
     # create a new folder in circle's artifacts directory for our cucumber results
-    - node_modules/coffee-script/bin/coffee --compile --output dist/ src/
-    - mkdir -p $CIRCLE_TEST_REPORTS/cucumber
+     - mkdir -p $CIRCLE_TEST_REPORTS/cucumber
 
   override:
     # run the cucumber tests and publish the json format to circle's artifacts

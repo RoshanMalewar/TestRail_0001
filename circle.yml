@@ -1,6 +1,16 @@
 machine:
   node:
-    version: 6
+version: 2.1
+
+orbs:
+  maven: circleci/maven@0.0.12
+
+workflows:
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
+
+version: 6.1.0
 
 test:
 
@@ -15,3 +25,5 @@ test:
 
   post:
     - ./bin/publish_results
+    - ./node_modules/.bin/cucumber-testrail -c cucumber_testrail.yml -r $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber -u $TESTRAIL_USERNAME -p $TESTRAIL_PASSWORD -i '[SOME MESSAGE]'
+    

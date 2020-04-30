@@ -39,7 +39,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RoshanMalewar/TestRail_0001/cucumber-testrail.git"
+    "url": "https://github.com/RoshanMalewar/TestRail_0001.git"
   },
   "scripts": {
     "test": "./bin/test",

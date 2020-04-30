@@ -39,7 +39,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Originate/cucumber-testrail.git"
+    "url": "https://github.com/RoshanMalewar/TestRail_0001/cucumber-testrail.git"
   },
   "scripts": {
     "test": "./bin/test",
@@ -48,14 +48,4 @@
   }
   "testling": {
     "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "ff/5",
-      "firefox/latest",
-      "chrome/10",
-      "chrome/latest",
-      "safari/5.1",
-      "safari/latest",
-      "opera/12"
-    ]
 }

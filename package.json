@@ -46,6 +46,4 @@
     "test": "tap test/*.js",
     "coverage": "covert test/*.js"
   }
-  "testling": {
-    "files": "test/*.js",
 }

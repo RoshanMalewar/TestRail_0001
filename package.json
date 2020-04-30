@@ -1,9 +1,9 @@
 {
-  "name": "cucumber-testrail",
+  "name": "TestRail_0001",
   "version": "0.0.1",
   "author": "Doreen Hakimi",
   "bin": {
-    "cucumber-testrail": "bin/cucumber-testrail"
+    "cucumber-testrail": "bin/TestRail_0001"
   },
   "description": "Pushes Cucumber Results from CircleCI to TestRails",
   "dependencies": {
@@ -29,7 +29,7 @@
     "tape": "^3.5.0"
   },
   "files": [
-    "bin/cucumber-testrail",
+    "bin/TestRail_0001",
     "dist",
     "README.md",
     "FAQs.md",
@@ -43,7 +43,6 @@
   },
   "scripts": {
     "test": "./bin/test",
-    "test": "tap test/*.js",
     "coverage": "covert test/*.js"
   }
 }
